@@ -1,0 +1,113 @@
+body {
+    background-color: #000000;
+    color: #c0c0c0;
+    font-family: "Courier New", monospace;
+    font-size: 16px;
+    margin: 0;
+    padding: 20px;
+}
+
+input {
+    background: transparent;
+    color: #00ff00;
+    border: none;
+    outline: none;
+    font-family: "Courier New", monospace;
+    font-size: 16px;
+    width: 100px;
+}
+
+p {
+    margin: 5px 0;
+    color: #00ff00;
+}
+
+#game-board {
+    margin: 20px auto;
+    width: 300px;
+}
+
+#terminal {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#successMessage {
+    display: block;
+    font-size: 16px;
+}
+
+#guessRecap {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#remainingGuesses {
+    display: block;
+    font-size: 16px;
+}
+
+.prompt {
+    color: #00ff00;
+}
+
+.correct-letter {
+    background-color: #808080;
+    color: #00ff00;
+    padding: 0 2px;
+}
+
+.hint {
+    background-color: transparent;
+    color: #fbff00;
+    padding: 0 2px;
+}
+
+.error {
+    background-color: transparent;
+    color: #ff0000;
+    padding: 0 2px;
+}
+
+.loading-bar {
+    width: 250px;
+    height: 20px;
+    border: 1px solid #00ff00;
+    margin-top: 5px;
+}
+
+.loading-bar-progress {
+    width: 0%;
+    height: 100%;
+    background-color: #00ff00;
+    transition: width 1.5s linear;
+}
+
+.code-scroll {
+    width: 50%;
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 14px;
+    white-space: pre;
+    pointer-events: none;
+    color: #00ff00;
+}
+
+.win-message {
+    color: #00ff00;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gain-insight {
+    color: #00ff00;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+}
